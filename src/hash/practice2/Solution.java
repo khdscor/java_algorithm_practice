@@ -4,7 +4,7 @@ class Solution {
         boolean answer = true;
         String compare="";
 
-        exit:for(int length=2;length<5;length++) {
+        exit:for(int length=1;length<20;length++) {
 
             for (String i : phone_book) {
 
@@ -13,7 +13,7 @@ class Solution {
                     for (String j : phone_book) {
                         if (i == j)
                             continue;
-                        if (j.contains(i) && j.indexOf(i)==0) {
+                        if (j.indexOf(i)==0) {
 
                             answer = false;
                             break exit;
