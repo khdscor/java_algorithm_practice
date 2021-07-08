@@ -1,4 +1,4 @@
-package hash.partice3;
+package hash.practice3;
 
 import java.util.HashMap;
 class Solution {

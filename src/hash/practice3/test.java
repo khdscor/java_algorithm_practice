@@ -1,4 +1,4 @@
-package hash.partice3;
+package hash.practice3;
 
 //문제: https://programmers.co.kr/learn/courses/30/lessons/42578
 
